@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main- Printing
+ * main-Printing
  *
- * Return: Always o (Successful)
+ * Return: Always 0 (Successful)
  */
 int main(void)
 {
