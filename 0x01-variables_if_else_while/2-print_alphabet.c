@@ -6,6 +6,7 @@
  * main - prints if the number is positive, zero or negative
  *
  *This program prints alphabets
+ *
  * Returns: 0 Always
  */
 int main(void)
@@ -17,7 +18,6 @@ int main(void)
 	{
 		putchar(ch);
 	}
-
 	putchar('\n');
 	return (0);
 }
