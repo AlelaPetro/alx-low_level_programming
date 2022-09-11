@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - prints the alphabet in lowercase, and then in uppercase, followed by a new line
+ * main - prints positive, zero and negative
  *
  * Returns: 0 Always
  */
@@ -11,6 +11,7 @@ int main(void)
 {
 	char ch;
 	for (ch = 'a' ; ch <= 'z' ; ch++)
+
 	{
 		putchar(ch);
 	}
