@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main- entry point
+ * main - Entry point
  *
  *This program prints alphabets
  *
