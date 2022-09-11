@@ -3,12 +3,13 @@
 #include <stdio.h>
 
 /**
- * main - prints if the number is positive, zero or negative
+ * main- entry point
  *
  *This program prints alphabets
  *
  * Returns: 0 Always
  */
+
 int main(void)
 {
 	char ch;
