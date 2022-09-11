@@ -5,9 +5,9 @@
 /**
  * main - Entry point
  *
- *This program prints alphabets
+ * Description: 'the program's description'
  *
- * Returns: 0 Always
+ * Returns: 0 Always (success)
  */
 
 int main(void)
