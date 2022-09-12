@@ -15,20 +15,20 @@ int main(void)
 
 	for (a = 0; a <= 9; a++)
 	{
-	for (b = 1; b <= 9; b++)
-	{
-		if (b > a);
+		for (b = 1; b <= 9; b++)
 		{
-			putchar(a + '0');
-			putchar(b + '0');
-			if (a > b);
+			if (b > a);
 			{
-				putchar(',');
-				putchar(' ');
+				putchar(a + '0');
+				putchar(b + '0');
+				if (a > b);
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
 		}
 	}
-	}
-}
 	putchar('\n');
 	return (0);
+}
