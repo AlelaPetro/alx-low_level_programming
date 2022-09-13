@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- *
+ * Print_alphabet - function to print abc 
  * Return: 0 always
  */
 void print_alphabet(void)
