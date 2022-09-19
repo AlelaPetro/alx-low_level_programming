@@ -11,16 +11,16 @@ int _atoi(char *s)
 {
 	int sign;
 	unsigned int num;
-	char *tmp;
+	char *temp;
 
 	temp = s;
 	num = 0;
 	sign = 1;
-	while (*tmp != '\0' && (*tmp < '0' || *tmp > '9'))
+	while (*temp != '\0' && (*tmp < '0' || *temp > '9'))
 	{
-		if (*tmp == '-')
+		if (*temp == '-')
 			sign *= 1;
-		tmp++;
+		temp++;
 	}
 	if (*temp != '\0')
 	{
