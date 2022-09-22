@@ -4,9 +4,10 @@
  * string_toupper - function that changes all lowercase letters to uppercase
  * @str: string to be changed
  *
- * Return: address of the string
+ * Return: returns character
  */
-char *string_toupper(char *)
+
+char *string_toupper(char *str)
 {
 	int index = 0;
 
