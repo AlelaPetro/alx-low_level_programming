@@ -4,7 +4,6 @@
  * reverse_array - function that reverses the content of an array
  * @a: array
  * @n: number of elements
- * Returm: nothing
  */
 
 void reverse_array(int *a, int n)
