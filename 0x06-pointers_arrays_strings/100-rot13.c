@@ -1,6 +1,6 @@
 #include "main.h"
 
-/*8
+/**
  * rot13 - encodes a string into ro13
  * @s: string to encode
  *
