@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_buffer - function that prints a s bytes of a buffer
+ * print_line - function that prints a s bytes of a buffer
  * @c: buffer to print
  * @s: bytes of buffer to print
  * @l: line of buffer to print
