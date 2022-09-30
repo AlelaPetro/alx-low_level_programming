@@ -10,7 +10,8 @@
  * Return 0 if true otherwise 1
  */
 int main(int argc, char *argv[])
-{int a, b;
+{
+	int a, b;
 
 	if (argc == 3)
 	{
