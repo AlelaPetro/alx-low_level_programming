@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main -> function that multiplies two numbers
+ * main - function that multiplies two numbers
  * @argc: argument count
  * @argv: argument vector
  *
