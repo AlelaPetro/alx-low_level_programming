@@ -15,6 +15,9 @@ int main(int argc, char *argv[])
 	if (argc > 0)
 	{
 		while (count < argc)
-			printf("%s\n", argv[count]);
+			{
+				printf("%s\n", argv[count]);
+			}
 	}
+	return (0);
 }
