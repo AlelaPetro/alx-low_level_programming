@@ -1,13 +1,12 @@
 #include <stdio.h>
-#include "main.h"
 #include <stdlib.h>
 
 /**
- * main - function that multiplies two numbers
+ * main - prints it's name followed by new line
  * @argc: argument count
  * @argv: argument vector
  *
- * Return 0 if true otherwise 1
+ * Return: 0 if true otherwise 1
  */
 int main(int argc, char *argv[])
 {
