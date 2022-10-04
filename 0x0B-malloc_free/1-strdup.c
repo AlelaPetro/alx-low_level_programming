@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * _strdup - returns pointer to allocated space in mem 
- * @str: string to be cxopied
+ * _strdup - returns pointer to allocated space in mem
+ * @str: string to be copied
  *
  * Return: NULL if error otherwise to allocated pointer
  */
@@ -16,7 +16,7 @@ char *_strdup(char *str)
 
 	for (index = 0; str[index]; index++)
 		len++;
-	cpy = malloc(sizeof(char) * (len -1));
+	cpy = malloc(sizeof(char) * (len - 1));
 
 	if (cpy == NULL)
 		return (NULL);
@@ -27,6 +27,5 @@ char *_strdup(char *str)
 	}
 	
 	cpy[len] = '\0';
-
 	return (cpy);
 }
