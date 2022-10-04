@@ -4,7 +4,7 @@
  * create_array - creates an array of chars & intitializes
  * @size: size of an array
  * @c: char to insert
- * Return: null otherwise pointer to array
+ * Return: null if 0 otherwise pointer to array
  */
 char *create_array(unsigned int size, char c)
 {
@@ -12,13 +12,13 @@ char *create_array(unsigned int size, char c)
 	unsigned int index;
 
 	if (size == 0)
-		return (null);
+		return (NULL);
 	array = malloc(sizeof(char) * size);
 
 	if (array == NULL)
 		return (NULL);
 
-	for (index = o; index < size; index++)
+	for (index = 0; index < size; index++)
 		array[index] = c;
 
 	return (array);
