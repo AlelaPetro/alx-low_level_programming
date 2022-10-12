@@ -2,12 +2,10 @@
 #define DOG_H_FILE
 
 /**
- * struct_dog - strct definition of dog
+ * struct dog - struct definition of dog
  * @name: name of dog
  * @age: age of dog
  * @owner: dog owner
- *
- * Return: void
  */
 typedef struct dog
 {
