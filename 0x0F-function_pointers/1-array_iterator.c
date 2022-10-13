@@ -10,18 +10,9 @@
  */
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
-	int i, r;
+	unsigned int i;
 
-	if (size > 0 && array && cmp)
-	{
+	if (array && action)
 		for (i = 0; i < size; i++)
-		{
-			r = cmp(array[i]);
-			if (r)
-				break;
-		}
-		if (i < size)
-			return (i);
-	}
-	return (-1);
+			action(array[i]);
 }
