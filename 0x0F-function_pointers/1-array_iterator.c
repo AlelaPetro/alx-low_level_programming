@@ -1,12 +1,12 @@
 #include "function_pointers.h"
 
 /**
- * int_index - searches for an integer
- * @array: array to search through
+ * array_iterator - executes a function given as a parameter
+ * @array: input int array
  * @size: size of array
- * @cmp: function used to compare
+ * @action: pointer to function
  *
- * Return: first index for which cmp dosen't return 0, or -1
+ * Return: void
  */
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
